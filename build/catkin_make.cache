@@ -1,0 +1,2 @@
+airsim_ros
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_WHITELIST_PACKAGES=airsim_ros -DCATKIN_DEVEL_PREFIX=/home/fzx/RoboMaster/devel -DCMAKE_INSTALL_PREFIX=/home/fzx/RoboMaster/install -G Unix Makefiles
