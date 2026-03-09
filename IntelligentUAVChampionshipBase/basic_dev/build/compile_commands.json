@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/basic_dev",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"basic_dev\\\" -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/basic_dev/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/include/opencv4  -O3 -DNDEBUG   -o CMakeFiles/basic_dev.dir/src/basic_dev.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/basic_dev/src/basic_dev.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/basic_dev/src/basic_dev.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/controller",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"controller_test\\\" -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/controller/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/controller_test.dir/src/controllerTest.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/controller/src/controllerTest.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/controller/src/controllerTest.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/controller",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"controller_test\\\" -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/controller/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/controller_test.dir/src/PDcontroller.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/controller/src/PDcontroller.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/controller/src/PDcontroller.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/imu_gps_odometry",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_gps_odometry\\\" -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/../utils  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/imu_gps_odometry.dir/src/imu_gps_odometry.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/src/imu_gps_odometry.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/src/imu_gps_odometry.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/imu_gps_odometry",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_gps_odometry\\\" -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/usr/include/eigen3 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/../utils  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/imu_gps_odometry.dir/src/eskf.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/src/eskf.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/imu_gps_odometry/src/eskf.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/odometry",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"odometry\\\" -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/../utils -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /usr/local/include/g2o/core -isystem /usr/local/include/g2o/stuff -isystem /usr/local/include/g2o/solvers/cholmod -isystem /usr/local/include/g2o/types/sba -isystem /usr/local/include/g2o/types/slam3d  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/odometry.dir/src/odometry.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/src/odometry.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/src/odometry.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/odometry",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"odometry\\\" -Dmap_manager_EXPORTS -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/../utils -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /usr/local/include/g2o/core -isystem /usr/local/include/g2o/stuff -isystem /usr/local/include/g2o/solvers/cholmod -isystem /usr/local/include/g2o/types/sba -isystem /usr/local/include/g2o/types/slam3d  -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/map_manager.dir/src/mapmanager.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/src/mapmanager.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/src/mapmanager.cpp"
+},
+{
+  "directory": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/build/odometry",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"odometry\\\" -Dmap_manager_EXPORTS -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/include -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/../utils -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /usr/local/include/g2o/core -isystem /usr/local/include/g2o/stuff -isystem /usr/local/include/g2o/solvers/cholmod -isystem /usr/local/include/g2o/types/sba -isystem /usr/local/include/g2o/types/slam3d  -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/map_manager.dir/src/keyframe.cpp.o -c /home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/src/keyframe.cpp",
+  "file": "/home/fzx/IntelligentUAVChampionshipBase/basic_dev/src/odometry/src/keyframe.cpp"
+}
+]

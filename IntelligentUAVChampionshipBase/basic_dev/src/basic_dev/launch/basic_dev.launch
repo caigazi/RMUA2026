@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="basic_dev" type="basic_dev" name="basic_dev" output="screen">
+    <param name="takeoff_wait_s" value="3.0" />
+    <param name="forward_speed_mps" value="5.0" />
+    <param name="forward_duration_s" value="10.0" />
+    <param name="publish_rate_hz" value="20.0" />
+    <param name="log_telemetry" value="false" />
+    <param name="velocity_topic" value="/airsim_node/drone_1/vel_body_cmd" />
+    <param name="velocity_acceleration" value="8" />
+  </node>
+</launch>

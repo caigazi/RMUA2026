@@ -1,0 +1,2 @@
+airsim_ros:basic_dev:controller:imu_gps_odometry:odometry
+-DCATKIN_DEVEL_PREFIX=/home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel -DCMAKE_INSTALL_PREFIX=/home/fzx/IntelligentUAVChampionshipBase/basic_dev/install -G Unix Makefiles
