@@ -19,7 +19,6 @@ ls -l | grep airsim_ros ”
 ##先roscore，再启动./run_simulator.sh 123，然后输入rosservice call /airsim_node/drone_1/takeoff "{}"即可起飞，source一下输入rqt_image_view，能看到实时图
 
 ##再打开到basic_dev,输入：
-source /opt/ros/noetic/setup.bash
-source /home/fzx/IntelligentUAVChampionshipBase/basic_dev/devel/setup.bash
+source devel/setup.bash
 roslaunch basic_dev basic_dev.launch
 可看到无人机起飞后，以一定速度向前飞，飞10s后悬停。
